@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+	<title>Time to Play</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <script type="text/javascript" src="assets/javascript/game.js"></script>
+</head>
+
+<body>
+
+  <h1>Hangman</h1>
+    <h2>Can you guess what I am thinking?? </h2>
+      <p id="guessField"></p>
+      <form name="crossCheck">
+      <input name="guessBox" type="text" size="10" maxlength="1">
+      <input name="button" type="button" value="Check me" onClick="checker()">
+
+      <p id="wrongLetters">Wrong Letters:</p>
+      <br/>
+      <input name="refresh" type="button" value="New Game" onClick="location.reload()">
+    </form>
+
+  </body>
+</html>
